@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node backend/server.js",
-    "vercel-build": "npm run build"
+    // "vercel-build": "npm run build"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
