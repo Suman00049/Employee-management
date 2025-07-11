@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",               // ✅ No tsc, only vite to prevent "tsc not found"
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node backend/server.js"
@@ -16,10 +16,11 @@
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.6.3"
+    "react-router-dom": "^7.6.3",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",                         // ✅ TypeScript is now dev-only
+    "typescript": "^5.8.3",
     "@eslint/js": "^9.9.1",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
