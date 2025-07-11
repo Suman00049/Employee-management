@@ -12,7 +12,7 @@ import {
   LogOut,
   Shield
 } from 'lucide-react';
-import { format, startOfMonth, endOfMonth, parseISO } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 
 interface Employee {
   _id: string;
